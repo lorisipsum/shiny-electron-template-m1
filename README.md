@@ -1,10 +1,22 @@
-# shiny-electron-template-m1
+# Forking this from Jinhwan combined with some of Abby's code made this possible
+
+> [!NOTE] 
+> I had to make some changes to Jinwhan's code because his was setup for a M1 chip, which I do not have.
+> Futhermore, there were many annoying errors that popped up when trying to start the app with Jinwhan's original code.
+> I also had to make some changes to Abby's original code because auto-unpack-natives and fuseat were
+> both trying to take control of the start command.
+> Melding both of their work together enabled me to properly make this first Electron app :)
+> Saving this here for future reference!
+
+
+
+## shiny-electron-template-m1
 
 ## How to Make an R Shiny Electron App
 
 > [!NOTE] 
 >
-> A setup guide by L. Abigail Walter <br>
+> A setup guide by  <a href="https://github.com/lawalter/r-shiny-electron-app">L. Abigail Walter</a> <br>
 > Instructions adapted from <a href="https://www.travishinkelman.com/post/deploy-shiny-electron/">Travis Hinkelman</a> <br>
 > R Shiny Electron template created by <a href="https://github.com/dirkschumacher/r-shiny-electron">Dirk Shumacher</a> <br>
 > Template & Instruction updated by <a href="https://github.com/jhk0530" target = "_blank">Jinhwan Kim</a> <br>
