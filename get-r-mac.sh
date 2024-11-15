@@ -8,14 +8,8 @@ set -e
 # Updated as Sonoma / m1
 mkdir -p r-mac
 curl -o r-mac/latest_r.pkg \
-https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.3.2-arm64.pkg
+https://cran.r-project.org/bin/macosx/big-sur-x86_64/base/R-4.3.3-x86_64.pkg
 
-# For Old version see below directory and change appropriately
-# https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/<...>
-#
-# Example: For R 4.3.1 Version, use below for line 11.
-# https://cloud.r-project.org/bin/macosx/big-sur-arm64/base/R-4.3.1-arm64.pkg
-#
 
 cd r-mac
 xar -xf latest_r.pkg

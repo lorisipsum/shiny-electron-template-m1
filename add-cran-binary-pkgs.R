@@ -56,6 +56,6 @@ install_bins <- function(
 if (dir.exists("r-mac")) {
   install_bins(
     cran_pkgs = cran_pkgs, library_path = file.path("r-mac", "library"),
-    type = "mac.binary.big-sur-arm64", decompress = untar
+    type = "mac.binary.big-sur-x86_64", decompress = untar
   )
 }
